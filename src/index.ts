@@ -27,3 +27,41 @@ const Nischay:String=func("Nischay","Sinha");
 const arr:number[]=[23,24,25,26,27,28,29];
 
 const arr2:string[]=["n","s"];
+
+// objects
+type obj1={
+    height:number;
+    weight:number;
+    gender?:boolean;
+};
+
+
+
+const obj:obj1={
+    height:3434,
+    weight:34,
+    gender:true
+};
+
+
+const obj3:obj1={
+    height:3434,
+    weight:34,
+    
+};
+
+
+interface Obj4{
+    height:number,
+    weight:number
+}
+
+
+interface NewObj extends Obj4{
+    scolar:boolean
+}
+
+
+// const gigi:NewObj={
+
+// }
